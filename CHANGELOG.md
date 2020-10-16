@@ -1,3 +1,5 @@
-## 1.0.0
+## 1.0.0-alpha.1
 
-- Initial version, created by Stagehand
+* Addition of `FlutterParallax` and `FlutterParallaxChild`
+* Added `README.md` and basic documentation for the constructors
+* Addition of the `screens`, `backgroundImage` and `scrollDirection` param to `FlutterParallax` constructor

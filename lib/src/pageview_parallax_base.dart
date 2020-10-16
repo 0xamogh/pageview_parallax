@@ -3,9 +3,18 @@ import 'package:flutter/material.dart';
 
 final offset = ValueNotifier<double>(0);
 
+/// This is the main Widget which handles
+/// the controllers and all parallax logic.
 class FlutterParallax extends StatefulWidget {
+  /// All the screens that will be placed
+  /// in the PageView with the effect.
   final List<Widget> screens;
+
+  /// Vertical or horizontal.
+  /// By default, it's set to vertical.
   final Axis scrollDirection;
+
+  /// The image for the Parallax effect.
   final ImageProvider backgroundImage;
 
   const FlutterParallax({
@@ -72,7 +81,10 @@ class _FlutterParallaxState extends State<FlutterParallax> {
   }
 }
 
+/// A child that moves with the PageView.
+/// By default, it moves horizontally.
 class FlutterParallaxChild extends StatefulWidget {
+  /// The cild that will have the moving effect.
   final Widget child;
 
   const FlutterParallaxChild({

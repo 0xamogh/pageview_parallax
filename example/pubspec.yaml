@@ -1,0 +1,28 @@
+name: jramogh
+description: IT's PORTFOLIO TIME
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.0+4
+  carousel_slider: ^2.0.0
+  flutter_fadein: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/
+  fonts:
+  - family: Inter
+    fonts:
+      # - asset: assets/Inter-ExtraBold.ttf
+      - asset: assets/SF-Pro-Display-Black.otf
+      - asset: assets/SF-Pro-Display-Medium.otf
+      # - asset: assets/Inter-ExtraBold.ttf

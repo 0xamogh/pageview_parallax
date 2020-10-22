@@ -1,0 +1,1 @@
+This is an example project for the `pageview_parallax` plugin.
